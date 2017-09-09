@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/erwindev/config-server.svg?branch=master)](https://travis-ci.org/erwindev/config-server)
+
 # College App Tracker Config Server
 
 ## Summary
