@@ -37,5 +37,4 @@ $ java -jar build/libs/configuration-service.jar
 ```
 $ curl http://localhost:9000/simpleshift/dev
 
-```
-
+```    
