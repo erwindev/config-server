@@ -64,10 +64,10 @@ $ minishift oc-env
 $ eval $(minishift oc-env)
 $ oc login
 
-```
 note: 
 username: developer
 password: developer
+```
 
 ### Deploying the application to OpenShift
 To deploy the application, you will need to set a few environment variables.  Please copy `openshift.env.template` into another `openshift.env` and update the variables accordingly.
