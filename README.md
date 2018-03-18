@@ -51,7 +51,7 @@ $ docker push ealberto/config-server
 
 Redhat provides are real easy way to run OpenShift locally using Minishift.  Minishift is a single-node OpenShift cluster running inside a virtual machine.
 
-To install Minishift, follow the[directions](https://docs.openshift.org/latest/minishift/getting-started/installing.html)in this installation guide.  As a note, I'm running these examples in MacOSX but I use VirtualBox as my VM driver.  
+To install Minishift, follow the [directions](https://docs.openshift.org/latest/minishift/getting-started/installing.html) in this installation guide.  As a note, I'm running these examples in MacOSX but I use VirtualBox as my VM driver.  
 
 ```
 $ minishift start --vm-driver=virtualbox
@@ -62,7 +62,11 @@ $ minishift start --vm-driver=virtualbox
 ```
 $ minishift oc-env
 $ eval $(minishift oc-env)
+$ oc login
 
+note: 
+username: developer
+password: developer
 ```
 
 ### Deploying the application to OpenShift
