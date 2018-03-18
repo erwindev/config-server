@@ -30,7 +30,7 @@ $ gradle assemble
 Run the application.
 
 ```
-$ java -jar build/libs/configuration-service.jar
+$ java -jar build/libs/config-server.jar
 
 ```
 
